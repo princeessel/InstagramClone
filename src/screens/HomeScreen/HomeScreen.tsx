@@ -1,17 +1,18 @@
 import React from "react";
-import { Text, View } from "react-native";
-import { ProfilePicture } from "../../components/ProfilePicture";
+import { View } from "react-native";
+import { Feed } from "../../components/Feed";
 import { Stories } from "../../components/Stories";
+
 
 const HomeScreen: React.FC = () => {
 
     return (
         <View>
             <>
-                <Stories />
+                <Feed />
             </>
         </View>
     );
 }
 
-export default React.memo(HomeScreen)
+export default React.memo(HomeScreen);

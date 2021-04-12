@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
-export const storyStyles = StyleSheet.create({
+export const storiesStyles = StyleSheet.create({
     container: {
-        
+        marginBottom: 15
     },
 })
