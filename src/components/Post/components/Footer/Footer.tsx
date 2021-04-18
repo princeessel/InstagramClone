@@ -15,13 +15,9 @@ interface IProps {
     postedAt: string
 }
 
-const Footer: React.FC<IProps> = ({  likesCount: likesCountProp, caption, postedAt }) => {
+const Footer: React.FC<IProps> = ({ likesCount: likesCountProp, caption, postedAt }) => {
     const [likesCount, setLikesCount] = useState(0);
     const [isLiked, setIsLiked] = useState(false);
-    const [isBookmarkClicked, setIsBookmarkClicked] = useState(false);
-    const handleBookmarkPress = () => {
-        setIsBookmarkClicked(!isLiked)
-    }
 
     const handleHeartPress = () => {
         const amount = isLiked ? -1 : 1
@@ -39,14 +35,13 @@ const Footer: React.FC<IProps> = ({  likesCount: likesCountProp, caption, posted
             <View style={footerStyles.iconsContainer}>
                 <View style={footerStyles.leftIcons}>
                     <TouchableOpacity onPress={handleHeartPress}>
-                        {isLiked ? <ADIcon name="heart" size={25} color={"#c30000"}/> :
-                        <ADIcon name="hearto" size={25} color={"#545454"}/>}
+                        {isLiked ? <ADIcon name="heart" size={25} color={"#c30000"} /> :
+                            <ADIcon name="hearto" size={25} color={"#545454"} />}
                     </TouchableOpacity>
                     <FontistoIcon name="comment" size={25} />
                     <IoniconsIcon name="paper-plane-outline" size={25} />
                 </View>
-                    <FAIcon name="bookmark-o" size={25} />
-                
+                <FAIcon name="bookmark-o" size={25} />
             </View>
 
 
