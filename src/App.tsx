@@ -5,13 +5,13 @@ import {
 } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 
-import TabNavigatorRoute from './router/TabRoute/TabNavigatorRoute';
+import Router from './router/Router';
 
 const App = () => {
   return (
     <NavigationContainer>
       <StatusBar barStyle='dark-content' />
-      <TabNavigatorRoute />
+      <Router />
     </NavigationContainer>
   );
 };

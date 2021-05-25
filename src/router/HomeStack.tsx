@@ -27,7 +27,7 @@ const HomeStackScreen = () => {
                             <Image
                                 source={require("../assets/images/logo.png")}
                                 resizeMode="contain"
-                                style={{ width: 130 }}
+                                style={{ width: 130, height: 50 }}
                             />
                         )
 

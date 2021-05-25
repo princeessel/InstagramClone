@@ -1,4 +1,5 @@
 export type TUser = {
+    id: string,
     imageUri: string
     name: string
 }
@@ -9,4 +10,8 @@ export type TPost = {
     likesCount: number,
     caption: string,
     postedAt: string
+}
+
+export type TStory = {
+    user: TUser
 }

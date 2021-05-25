@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { Text, TouchableOpacity, TouchableOpacityBase, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import ADIcon from "react-native-vector-icons/AntDesign";
 import FontistoIcon from "react-native-vector-icons/Fontisto";
 import IoniconsIcon from "react-native-vector-icons/Ionicons";
 import FAIcon from "react-native-vector-icons/FontAwesome";
-
 
 
 import { footerStyles } from "./styles";

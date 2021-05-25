@@ -4,11 +4,11 @@ import AntDesign from "react-native-vector-icons/AntDesign";
 import Feather from "react-native-vector-icons/Feather";
 import Foundation from "react-native-vector-icons/Foundation";
 import Ionicons from "react-native-vector-icons/Ionicons";
-import DiscoveryScreen from '../../screens/DiscoveryScreen/DiscoveryScreen';
-import NotificationsScreen from '../../screens/NotificationsScreen/NotificationsScreen';
-import ProfileScreen from '../../screens/ProfileScreen/ProfileScreen';
-import PostScreen from '../../screens/CreatePostScreen/CreatePostScreen';
-import HomeStackScreen from "../HomeStack";
+import DiscoveryScreen from '../screens/DiscoveryScreen/DiscoveryScreen';
+import NotificationsScreen from '../screens/NotificationsScreen/NotificationsScreen';
+import ProfileScreen from '../screens/ProfileScreen/ProfileScreen';
+import PostScreen from '../screens/CreatePostScreen/CreatePostScreen';
+import HomeStackScreen from "./HomeStack";
 
 const Tab = createBottomTabNavigator();
 
