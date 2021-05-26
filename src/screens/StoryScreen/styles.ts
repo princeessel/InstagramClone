@@ -25,10 +25,9 @@ export const styles = StyleSheet.create<{
     justifyContent: 'center'
   },
   userInfo: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
-    marginTop: -600
+    marginTop: -650
   },
   userName: {
     color: 'white',
@@ -36,6 +35,8 @@ export const styles = StyleSheet.create<{
     fontSize: 18
   },
   bottomContainer: {
+    position:'absolute',
+    bottom: 0,
     flexDirection: 'row',
     marginHorizontal: 5,
     marginBottom: 20
